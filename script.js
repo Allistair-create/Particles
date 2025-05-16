@@ -54,7 +54,7 @@ class Particle {
 
 // Utility: Generate a random color
 function randomColor() {
-  const colors = ['#ffffff', '#e1e1e1', '#99ccff', '#00e6e6', '#ffd700'];
+  const colors = ['#ffffff', '#e1e1e1', '#99ccff', '#00e6e6', '#ffd700', '#00ff00', '#ffff00', '#ffa500', '#800080' ];
   return colors[Math.floor(Math.random() * colors.length)];
 }
 
