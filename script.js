@@ -60,7 +60,7 @@ function randomColor() {
 
 // Initialize particles
 const particles = [];
-const NUM_PARTICLES = 120;
+const NUM_PARTICLES = 250;
 for (let i = 0; i < NUM_PARTICLES; i++) {
   const radius = Math.random() * 2 + 1; // 1-3px
   const x = Math.random() * canvas.width;
