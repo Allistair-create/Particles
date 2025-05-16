@@ -1,0 +1,17 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: #181c20; /* Dark background for nice contrast */
+}
+
+#particle-canvas {
+  display: block;
+  position: absolute;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  /* Ensures the canvas fills the window */
+}
